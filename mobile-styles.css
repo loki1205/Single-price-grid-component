@@ -1,0 +1,149 @@
+body{
+    background-color: var(--light-gray);
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 100px;
+}
+
+:root{
+    --light-gray: hsl(204, 43%, 93%);
+    --grayish-blue: hsl(218, 22%, 67%);
+    --cyan: hsl(179, 62%, 43%);
+    --bright-yellow: hsl(71, 73%, 54%);
+}
+
+
+
+*{
+    font-family: Karla;
+    margin:0;
+    padding: 0;
+}
+
+.card{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.row-1{
+    background-color: white;
+    flex:1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top:40px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+}
+
+.title{
+    color:var(--cyan);
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.desc{
+    margin-bottom: 15px;
+    color:var(--bright-yellow);
+    font-weight: bold;
+}
+
+.price-section{
+    display: flex;
+    margin-top:1.5em;
+    align-items: center;
+    flex-direction: row;
+}
+
+.btn{
+background-color: var(--bright-yellow);
+color:white;
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 15px;
+padding-bottom: 15px;
+width:90%;
+border:none;
+box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.22);
+margin-top: 25px;
+border-radius: 6px;
+}
+
+.desc-2{
+    margin-top:15px;
+    font-size: 16px;
+}
+
+.time{
+    font-size: 12px;
+    font-weight: bold;
+    align-self: center;
+    margin-left: 10px;
+    color:rgba(255, 255, 255, 0.661);
+}
+
+.price{
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+}
+.row-2{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+}
+
+.subscribe{
+    font-size:18px;
+    font-weight: bold;
+}
+
+.column-1{
+    background-color: var(--cyan);
+    flex: 1;
+    color:white;
+    padding-top:40px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    font-size:15px;
+}
+
+.column-2{
+    flex:1;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: hsla(179, 62%, 43%, 0.697);
+    color:white;
+    padding-top:40px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    font-size:15px;
+}
+
+.column-2 > p{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.para{
+    color:var(--grayish-blue);
+    line-height: 25px;
+}
+
+.column-2 > ul{
+    padding-top: 15px;
+}
+
+.column-2 >ul > li{
+    list-style-type: none;
+    line-height: 20px;
+    font-size:14px;
+    color: var(--light-gray);
+}
